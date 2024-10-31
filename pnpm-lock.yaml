@@ -51,6 +51,9 @@ importers:
         specifier: ^3.4.27
         version: 3.5.12(typescript@5.6.3)
     devDependencies:
+      '@css-render/vue3-ssr':
+        specifier: ^0.15.14
+        version: 0.15.14(vue@3.5.12)
       less:
         specifier: ^4.2.0
         version: 4.2.0
@@ -310,7 +313,6 @@ packages:
       vue: ^3.0.11
     dependencies:
       vue: 3.5.12(typescript@5.6.3)
-    dev: false
 
   /@docsearch/css@3.6.2:
     resolution: {integrity: sha512-vKNZepO2j7MrYBTZIGXvlUOIR+v9KRf70FApRgovWrj3GTs1EITz/Xb0AOlm1xsQBp16clVZj1SY/qaOJbQtZw==}
