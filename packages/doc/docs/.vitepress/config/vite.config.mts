@@ -7,6 +7,11 @@ export default defineConfig({
   resolve: {
     alias: {
       // '@vue3': './index.md'
-    }
-  }
+    },
+  },
+  // naive-ui组件打包时的特殊处理
+  // https://www.naiveui.com/zh-CN/os-theme/docs/vitepress
+  ssr: {
+    noExternal: ['naive-ui', 'date-fns', 'vueuc'],
+  },
 })
