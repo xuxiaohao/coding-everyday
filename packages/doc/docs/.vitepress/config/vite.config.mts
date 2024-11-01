@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [MarkdownTransform(), frontmatterTagPlugin()],
   resolve: {
     alias: {
-      // '@vue3': './index.md'
+      '@': '/src',
     },
   },
   // naive-ui组件打包时的特殊处理

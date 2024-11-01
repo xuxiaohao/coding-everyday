@@ -16,6 +16,8 @@
     "vitepress": "^1.2.2"
   },
   "dependencies": {
+    "@vueuse/core": "^11.2.0",
+    "@xros/utils": "workspace:^",
     "@xros/vue3": "workspace:^",
     "gsap": "^3.12.5",
     "naive-ui": "^2.39.0",

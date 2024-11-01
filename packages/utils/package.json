@@ -2,14 +2,22 @@
   "name": "@xros/utils",
   "version": "1.0.0",
   "description": "xros 常用工具方法集合",
-  "main": "index.js",
+  "private": true,
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "scripts": {
-    "dev": "node"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "~5.6.2"
+  },
+  "dependencies": {
+    "vite": "^5.4.10",
+    "vue": "^3.5.12",
+    "vue-demi": "^0.14.10"
   }
 }
