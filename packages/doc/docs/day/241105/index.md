@@ -4,6 +4,7 @@ tags:[vueuse]
 
 # createGlobalState
 
+
 创建全局的响应式对象状态。
 
 
