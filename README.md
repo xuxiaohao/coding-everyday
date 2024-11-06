@@ -27,3 +27,4 @@
   - [x] 解决了@xros/utils模块打包问题 
 - [x] 2024-11-04 [支持解构的对象方法]
 - [x] 2024-11-05 [createGlobalState方法]
+- [x] 2024-11-06 [useStorage方法]

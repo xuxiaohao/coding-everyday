@@ -10,6 +10,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '11-01: 异步计算属性computedAsync', link: '/day/241101/' },
         { text: '11-04: 使对象和数组同时可同构解析', link: '/day/241104/' },
         { text: '11-05: 创建全局的响应式对象状态', link: '/day/241105/' },
+        { text: '11-06: 创建Storage的响应式引用', link: '/day/241106/' },
       ],
     },
   ],
